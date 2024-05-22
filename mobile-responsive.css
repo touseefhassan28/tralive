@@ -1,0 +1,222 @@
+@media screen and (max-width: 425px) {
+
+    .navbar .logo img {
+        width: 30%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    .logo {
+        margin: 2% 0 2% 1%
+    }
+
+    .mobile-menu {
+        background-color: rgb(90, 89, 89);
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .fa fa-bars {
+        font-size: 1rem;
+    }
+
+    .checkbtn {
+        padding: 2% 3% 2% 3%;
+        font-size: 12px;
+        border-radius: 5px;
+        margin-right: 2%;
+    }
+
+    .nav-menu ul {
+        visibility: hidden;
+        display: none;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .main-section {
+        width: 100%;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+
+    .main-heading h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .underline {
+        border: 3px solid #FFC800;
+        margin: -4% 15% 0 15%;
+        z-index: 1000;
+    }
+
+
+    .subheading {
+        width: 100%;
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+    .explore {
+        margin-top: 5%;
+        padding: 2% 4%;
+        font-size: 0.8rem;
+    }
+
+
+
+    .bg-slider {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        background-position: center;
+        margin-top: 2%;
+    }
+
+    .car {
+        margin-bottom: 15%;
+    }
+
+
+    .upcoming-events h2 {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+
+    .event-cards {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 3%;
+        overflow: hidden;
+    }
+
+    .card2,
+    .card3 {
+        display: none;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    .about-us-img {
+        margin-bottom: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us-img img {
+        width: 60%;
+
+    }
+
+    .about-us-text {
+        width: 80%;
+    }
+
+    .about-us-text h6 {
+        font-size: 1rem;
+    }
+
+    .about-us-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-us-text p {
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+
+    .testimonials {
+        width: 100%;
+        padding: 10% 0 10% 0;
+        margin-bottom: 10%;
+    }
+
+    .testimonials-bg {
+        width: 90%;
+    }
+
+    .testimonials-bg {
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    #name {
+        font-size: 1.2rem;
+    }
+
+    #designation {
+        font-size: 1rem;
+    }
+
+    .vedio {
+        margin-bottom: 10%;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+
+    .carousel {
+        width: 100%;
+    }
+
+
+    .footer-row-1 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 5%;
+    }
+
+    .footer1 {
+        width: 100%;
+    }
+
+    .footer2,
+    .footer3,
+    .footer4 {
+        margin-top: 10%;
+    }
+
+}
+
+
+@media (min-width: 997px) {
+
+    #check,
+    .checkbtn {
+        display: none;
+        visibility: hidden
+    }
+
+    #check {
+        background-color: pink;
+    }
+
+
+}
