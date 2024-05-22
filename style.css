@@ -121,7 +121,7 @@ body {
 }
 
 .bg-slider {
-    background-image: url(/Resources/h1_hero1.png);
+    background-image: url(./Resources/h1_hero1.png);
     background-size: cover;
     height: 100vh;
     display: flex;
