@@ -25,8 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: auto;
-    max-width: 1920px;
+
     height: 62px;
 }
 
@@ -232,9 +231,6 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
     gap: 15%;
 }
@@ -292,8 +288,6 @@ body {
     padding-bottom: 130px;
     margin-bottom: 80px;
     text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .testimonials-bg {
@@ -380,9 +374,6 @@ body {
     text-align: center;
     color: white;
     overflow: hidden;
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .btn {
@@ -403,9 +394,34 @@ body {
     height: auto;
 }
 
-@media screen and (min-width:1300px){
+@media screen and (min-width:1300px) {
+    .navbar {
+        margin: auto;
+        max-width: 1920px;
+    }
+
+    .about-us {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonials {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .vedio {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
     .carousel {
-    justify-content: center;}
+        justify-content: center;
+    }
+
 }
 
 
